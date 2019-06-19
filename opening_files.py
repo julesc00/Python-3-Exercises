@@ -1,7 +1,7 @@
 import json
 # import _pickle as pickle
 # Use json for dicts and sets creation to files.
-# Use pickle fo serialization
+# Use pickle fo serialization, but couldn't make it work.
 
 
 new_text = "This is a new line of text.\n"
@@ -19,7 +19,7 @@ family = {"Claudia": "wife",
           "Benito": "son",
           "Jesusito": "son"}
 
-file = open("text.txt", 'a')
+file = open("text.txt", 'w')
 file.write(new_text + text2) # it worked
 
 # to append is 'a'
@@ -28,10 +28,16 @@ file.write(new_text + text2) # it worked
 
 # since file is already open:
 file.write(json.dumps(family) + "\n")
-
 for item in l:
     file.write(item + "\n")
+
+content = file.read()
+
+
+
 
 # file.write(pickle.dumps(family)) # Use pickle 'loads' to do reverse.
 # Couldn't use it
 file.close()
+
+# Appending lines
