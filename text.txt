@@ -1,2 +1,12 @@
 This is a new line of text.
 Another line of text to append.
+{"Claudia": "wife", "Caricia": "daughter", "Franz-Che": "daughter", "Cesarito": "son", "Julito": "son", "Lucien": "son", "Brigitte": "daughter", "Michele": "daughter", "Benito": "son", "Jesusito": "son"}
+Line 1
+Line 2
+Line 3
+This is a new line of text.
+Another line of text to append.
+{"Claudia": "wife", "Caricia": "daughter", "Franz-Che": "daughter", "Cesarito": "son", "Julito": "son", "Lucien": "son", "Brigitte": "daughter", "Michele": "daughter", "Benito": "son", "Jesusito": "son"}
+Line 1
+Line 2
+Line 3
